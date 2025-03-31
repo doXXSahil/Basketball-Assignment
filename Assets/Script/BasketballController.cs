@@ -180,6 +180,7 @@ public class BasketballController : MonoBehaviour {
 
         // Hide UI
         gameOverPanel.SetActive(false);
+        scoreText.gameObject.SetActive(true);
         UpdateScoreUI();
 
         // Lock cursor back to game
